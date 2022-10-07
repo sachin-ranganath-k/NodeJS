@@ -1,29 +1,9 @@
-// function demo(name){
-//     console.log("This is demo app "+name)
-// }
-// // console.log(window);
-//  demo("Sachin");
+const loggerInApp=require('./logger')   //require() is used to import the modules which are exported from other modules
+// console.log(loggerInApp) //{ myLog: [Function: log] }
 
 
-// var msg="";
-// console.log(global.msg)  //undefined (in node)   Variables declared are not "global" objects
+//Now we van use exported data from other module i.e., logger module
+// loggerInApp.myLog("Hello world..!")  //myLog is exported function from logger.js
 
-
-console.log(module)
-//Output
-/*
-    Module {
-  id: '.',
-  path: 'E:\\nodejs\\first-node-app',
-  exports: {},
-  parent: null,
-  filename: 'E:\\nodejs\\first-node-app\\app.js',
-  loaded: false,
-  children: [],
-  paths: [
-    'E:\\nodejs\\first-node-app\\node_modules',
-    'E:\\nodejs\\node_modules',
-    'E:\\node_modules'
-  ]
-}
-*/
+//Call just function, not like object
+loggerInApp('hi');
