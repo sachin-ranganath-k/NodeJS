@@ -24,5 +24,6 @@ The variables and functions inside the module are private and not visible to the
 The variables and functions are made private in node.js using the node.js module wrapper function.
 
 
--- Path Module
+-- Path Module (pathModule.js)
+-- OS Module (osModule.js)
      

@@ -2,7 +2,7 @@ const loggerInApp=require('./logger')   //require() is used to import the module
 // console.log(loggerInApp) //{ myLog: [Function: log] }
 
 
-//Now we van use exported data from other module i.e., logger module
+//Now we can use exported data from other module i.e., logger module
 // loggerInApp.myLog("Hello world..!")  //myLog is exported function from logger.js
 
 //Call just function, not like object
