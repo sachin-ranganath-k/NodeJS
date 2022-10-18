@@ -27,4 +27,5 @@ The variables and functions are made private in node.js using the node.js module
 -- Path Module (pathModule.js)
 -- OS Module (osModule.js)
 -- File System Module (fileSystemModule.js)
+-- Event Module (eventModule.js)
      
